@@ -1,0 +1,207 @@
+.titleAndTypeDiv{
+    display: flex;
+}
+
+.titleAndInputHolder{
+    display: block;
+    width: 100%;
+    margin: 0px 1% 0px 0%;
+}
+
+.typeAndInputHolder{
+    display: block;
+    width: 100%;
+    margin: 0px 0% 0px 1%;
+}
+
+.titleLabelHolder {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0px 0px 5px 0px;
+}
+.descLabelHolder{
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 20px 0px 5px 0px;
+}
+.typelabelHolder{
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0px 0px 5px 0px;
+}
+
+.inputHolder {
+    display: block;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #80808054;
+    padding: 8px 15px 8px 15px;
+    width: 100%;
+}
+
+input:focus {
+    outline: none !important;
+    border:2px solid #2F991E;
+  }
+
+.selectHolder{
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #80808054;
+    padding: 8px 15px 8px 15px;
+}
+
+select:focus {
+    outline: none !important;
+    border:2px solid #2F991E;
+  }
+
+select .optionsHolder:hover{
+    padding: 10px;
+    background: #094F0C !important;
+}
+.timeSlotHolder{
+    display: flex;
+}
+
+.toTextHolder {
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.cancelButton {
+    background: white;
+    font-size: 14px;
+    border: 1px solid #094F0C;
+    color: #094F0C;
+    font-weight: 600;
+}
+.cancelButton:hover{
+    background: white;
+    font-size: 14px;
+    border: 1px solid #094F0C;
+    color: #094F0C;
+    font-weight: 600;
+}
+.addButton {
+    background: #f1f1f1;
+    font-size: 14px;
+    border: 0px solid #094F0C;
+    color: #191B19;
+    font-weight: 600;
+}
+.addButton:hover {
+    background: #094F0C;
+    font-size: 14px;
+    border: 0px solid #094F0C;
+    color: #C2F291;
+    font-weight: 600;
+}
+
+.checkBoxHolder{
+    height: 16px;
+    width: 16px;
+}
+
+.checkBoxLabelHolder {
+    font-size: 14px;
+    padding: 0px 0px 0px 10px;
+    font-weight: 500;
+}
+
+.checkBoxAndDivHolder{
+    margin: 10px 0px 5px 0px;
+}
+
+.checkAndLableHolder{
+    display: flex;
+    align-items: center;
+}
+
+.ModalHeaderHolder{
+    border: 0px;
+}
+
+.arrowHolder {
+    position: relative;
+ }
+
+ .arrowHolder select {
+    appearance: none;
+ }
+
+.selectHolderForTime{
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #80808054;
+    padding: 8px 75px 8px 15px;
+}
+
+.widthForTimeSlotsHolder{
+    width : 130px;
+}
+
+.arrowHolderForTime {
+    position: relative;
+ }
+
+ .arrowHolderForTime select {
+    appearance: none;
+ }
+
+.arrowHolderForTime::after {
+    content: "";
+    position: absolute;
+    left: auto;
+    right: 20px;
+    border: solid #000000a3;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    bottom: 42%;
+    top: auto;
+    left: auto;
+    right: 12%;
+    border-radius: 20%;
+}
+
+span button {
+    font-size: 16px;
+    height: 32px;
+    width: 32px;
+    border-radius: 40px;
+    color: #094F0C;
+    border: 0px;
+    background: #E0F9C8;
+    margin: 0px 0.4%;
+    &:active{
+        background-color: red;
+    }
+}
+
+span button:hover {
+    background: #094F0C;
+    font-size: 16px;
+    border: 0px solid #094F0C;
+    color: #C2F291;
+}
+
+.daysHolder:active{
+    background: #094F0C;
+    font-size: 16px;
+    color: #C2F291;
+}
+
+.timeSlotsHolder{
+    display: flex;
+    align-items: center;
+}
